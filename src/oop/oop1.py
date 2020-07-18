@@ -30,12 +30,12 @@ class Starship(FlighVehicle):
     #inherits the class FlightVehicle
     pass
 
-class Airplane(FlighVehicle):
-    #inherits the class FLightVehicle
-    pass
-
 class GroundVehicle(Vehicle):
     #inherits the class Vehicle
+    pass
+
+class Airplane(FlighVehicle):
+    #inherits the class FLightVehicle
     pass
 
 class Car(GroundVehicle):
